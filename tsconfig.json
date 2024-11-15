@@ -4,8 +4,10 @@
     "module": "CommonJS",
     "moduleResolution": "node",
     "types": ["node", "cors"],
+    "outDir": "./dist",
+    "rootDir": "./server",
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "includes": ["./be-src/**/*.ts", "src/**/*", "images.d.ts"]
+  "includes": ["./be-src/**/*.ts", "src/**/*", "images.d.ts", "server/**/*"]
 }
