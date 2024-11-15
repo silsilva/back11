@@ -9,5 +9,6 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["./be-src/**/*.ts", "src/**/*", "images.d.ts", "server/**/*"]
+  "include": ["./be-src/**/*.ts", "src/**/*", "images.d.ts", "server/**/*"],
+  "exclude": ["node_modules"]
 }
