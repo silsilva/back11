@@ -9,5 +9,5 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "includes": ["./be-src/**/*.ts", "src/**/*", "images.d.ts", "server/**/*"]
+  "include": ["./be-src/**/*.ts", "src/**/*", "images.d.ts", "server/**/*"]
 }
